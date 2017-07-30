@@ -1,0 +1,3 @@
+解决brew在10.11 之后的权限问题：
+sudo chown $(whoami):admin /usr/local && sudo chown -R $(whoami):admin /usr/local
+
